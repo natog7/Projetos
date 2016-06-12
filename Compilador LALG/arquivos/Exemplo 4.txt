@@ -1,0 +1,20 @@
+program semcriatividade2;
+var batata : real;
+var salame, salaminho : real;
+
+{ insira seu texto aqui }
+procedure sanduba(pipoca : real);
+begin
+	read(batata = 3, salame = 8);
+	if pipoca < batata - salame then
+	begin
+		pipoca = -15;
+		salaminho = 0
+		salaminho := (batata* salame) / pipoca;
+		pipoca := salaminho + 1;
+		salame = salame -1;
+		batata= batata+ 2;
+	end;
+begin
+	read(salaminho, pipoca, salame, batata);
+end.

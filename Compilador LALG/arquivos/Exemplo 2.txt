@@ -1,0 +1,23 @@
+program exemplo2;
+
+{ Programa Exemplo 2 }
+var teste1, teste2 : real;
+var troca : integer;
+
+begin
+read (teste1, teste2);
+if teste1 < teste2 then {Isso não deve ser lido, apenas ignorado}
+
+begin
+troca = 0;
+troca := teste1 / teste2;
+teste1 := teste1 + 0.5;
+end
+if teste1> teste2 the
+troca := teste2 - teste1;
+teste1 = teste1 + 0.5;
+end
+
+begin
+read(teste1, teste2, troca);
+end.

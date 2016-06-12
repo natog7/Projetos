@@ -1,0 +1,14 @@
+program semcriatividade;
+
+begin
+if pipoca > pudim - salame then
+
+begin
+salaminho := pudim - salame;
+end;
+
+begin
+read(salaminho, pipoca);
+end;
+
+end.

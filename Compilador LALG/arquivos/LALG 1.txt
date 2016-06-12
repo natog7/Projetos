@@ -1,0 +1,7 @@
+program lalg;
+{entrada}
+var a: integer;
+var salame:real;
+begin
+readd(a, @, 1);
+end.

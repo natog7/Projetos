@@ -1,0 +1,63 @@
+<programa>
+<corpo> <dc> <dc_v> <tipo_var> <variaveis> <mais_var> <dc_p> <parametros> <lista_par> <mais_par> <corpo_p> <dc_loc> <lista_arg> <argumentos> <mais_ident> <pfalsa> <comandos> <cmd> <cmdaux> <condicao> <relacao> <expressao> <op_un> <outros_termos> <op_ad> <termo> <mais_fatores> <op_mul> <fator>
+VAZIO PROGRAMA IDENTIFICADOR PONTO_VIRGULA FINAL_PROGRAMA INICIO FIM VARIAVEL ATRIBUICAO_TIPO REAL INTEIRO VIRGULA METODO ABRE_PARENTESES FECHA_PARENTESES ELSE IF THEN WHILE DO LER ESCREVER ATRIBUICAO IGUAL MAIOR MENOR MAIOR_IGUAL MENOR_IGUAL DIFERENTE OPERADOR_SOMA OPERADOR_SUBTRACAO OPERADOR_MULTIPLICACAO OPERADOR_DIVISAO NUMERO_INTEIRO NUMERO_REAL
+<programa> PROGRAMA IDENTIFICADOR PONTO_VIRGULA <corpo> FINAL_PROGRAMA
+<corpo> <dc> INICIO <comandos> FIM
+<dc> <dc_v> <dc_p>
+<dc_v> VARIAVEL <variaveis> ATRIBUICAO_TIPO <tipo_var> PONTO_VIRGULA <dc_v>
+<dc_v> VAZIO
+<tipo_var> REAL
+<tipo_var> INTEIRO
+<variaveis> IDENTIFICADOR <mais_var>
+<mais_var> VIRGULA <variaveis>
+<mais_var> VAZIO
+<dc_p> METODO IDENTIFICADOR <parametros> PONTO_VIRGULA <corpo_p> <dc_p>
+<dc_p> VAZIO
+<parametros> ABRE_PARENTESES <lista_par> FECHA_PARENTESES
+<parametros> VAZIO
+<lista_par> <variaveis> ATRIBUICAO_TIPO <tipo_var> <mais_par>
+<mais_par> PONTO_VIRGULA <lista_par>
+<mais_par> VAZIO
+<corpo_p> <dc_loc> INICIO <comandos> FIM PONTO_VIRGULA
+<dc_loc> <dc_v>
+<lista_arg> ABRE_PARENTESES <argumentos> FECHA_PARENTESES
+<lista_arg> VAZIO
+<argumentos> IDENTIFICADOR <mais_ident>
+<mais_ident> PONTO_VIRGULA <argumentos>
+<mais_ident> VAZIO
+<pfalsa> ELSE <cmd>
+<pfalsa> VAZIO
+<comandos> <cmd> PONTO_VIRGULA <comandos>
+<comandos> VAZIO
+<cmd> LER ABRE_PARENTESES <variaveis> FECHA_PARENTESES
+<cmd> ESCREVER ABRE_PARENTESES <variaveis> FECHA_PARENTESES
+<cmd> WHILE <condicao> DO <cmd>
+<cmd> IF <condicao> THEN <cmd> <pfalsa>
+<cmd> IDENTIFICADOR <cmdaux>
+<cmd> INICIO <comandos> FIM
+<cmdaux> ATRIBUICAO <expressao>
+<cmdaux> <lista_arg>
+<condicao> <expressao> <relacao> <expressao>
+<relacao> IGUAL
+<relacao> DIFERENTE
+<relacao> MAIOR_IGUAL
+<relacao> MENOR_IGUAL
+<relacao> MAIOR
+<relacao> MENOR
+<expressao> <termo> <outros_termos>
+<op_un> OPERADOR_SOMA
+<op_un> OPERADOR_SUBTRACAO
+<op_un> VAZIO
+<outros_termos> <op_ad> <termo> <outros_termos>
+<outros_termos> VAZIO
+<op_ad> OPERADOR_SOMA
+<op_ad> OPERADOR_SUBTRACAO
+<termo> <op_un> <fator> <mais_fatores>
+<mais_fatores> <op_mul> <fator> <mais_fatores>
+<mais_fatores> VAZIO
+<op_mul> OPERADOR_MULTIPLICACAO
+<op_mul> OPERADOR_DIVISAO
+<fator> IDENTIFICADOR
+<fator> NUMERO_INTEIRO
+<fator> NUMERO_REAL
+<fator> ABRE_PARENTESES <expressao> FECHA_PARENTESES

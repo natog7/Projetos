@@ -1,0 +1,14 @@
+program PROGRAMA
+begin INICIO
+end FIM
+var VARIAVEL
+integer INTEIRO
+real REAL
+if IF
+then THEN
+else ELSE
+while WHILE
+do DO
+procedure METODO
+read LER
+write ESCREVER

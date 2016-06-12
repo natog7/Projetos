@@ -1,0 +1,21 @@
+pogram aleatoriedade;
+
+va tetris, gamecube: real
+var real : integer
+
+begin
+tetris = 5;
+gamecube = tetris;
+real = -3;
+
+fi real< > 2 them
+
+	begin
+gamecube: = tetris + real;
+real : = real + 0.3
+
+end;
+
+begin
+read(tetis, real, gamecube);
+end;

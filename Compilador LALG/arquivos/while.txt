@@ -1,0 +1,9 @@
+program programinha;
+
+begin
+	x  := 3 ;
+	if x = 2
+	then
+	y := x;
+	while) < 
+end.

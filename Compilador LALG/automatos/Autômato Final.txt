@@ -1,0 +1,63 @@
+. , ; : #espaco_branco + - * / ( ) { } #tabulacao #nova_linha < > c d = #outro #nao_alfabeto
+Q0
+Q4 Q5 Q7 Q10 Q15 Q19 Q20
+ERRO
+Q1 NUMERO_INTEIRO_MAL_FORMADO
+Q2 NUMERO_REAL_MAL_FORMADO
+Q3 NUMERO_REAL_MAL_FORMADO
+Q8 COMENTÁRIO_NÃO_FINALIZADO
+Q21 SIMBOLO_INVÁLIDO
+ERRO
+MSG
+Q4 NUMERO_INTEIRO
+Q5 NUMERO_REAL
+Q10 COMENTÁRIO
+Q19 IDENTIFICADOR
+MSG
+#espaco_branco Q0 Q0
+#tabulacao Q0 Q0
+#nova_linha Q0 Q0
+#nao_alfabeto Q0 Q21
+d Q0 Q1
+d Q1 Q1
+. Q1 Q2
+d Q2 Q3
+d Q3 Q3
+#outro Q1 Q4
+#outro Q3 Q5
+= Q0 Q6
++ Q0 Q6
+- Q0 Q6
+* Q0 Q6
+/ Q0 Q6
+. Q0 Q6
+; Q0 Q6
+( Q0 Q6
+) Q0 Q6
+, Q0 Q6
+#outro Q6 Q7
+{ Q0 Q8
+#outro Q8 Q8
+} Q8 Q9
+#outro Q9 Q10
+> Q0 Q11
+= Q11 Q14
+: Q0 Q12
+= Q12 Q14
+< Q0 Q13
+= Q13 Q14
+> Q13 Q14
+#outro Q11 Q15
+#outro Q12 Q20
+#outro Q13 Q20
+#outro Q14 Q15
+c Q0 Q16
+c Q16 Q17
+c Q17 Q16
+c Q18 Q17
+d Q16 Q18
+d Q17 Q18
+d Q18 Q16
+#outro Q16 Q19
+#outro Q17 Q19
+#outro Q18 Q19

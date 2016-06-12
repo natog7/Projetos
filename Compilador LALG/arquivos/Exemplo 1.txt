@@ -1,0 +1,21 @@
+program exemplo;
+
+{ Programa de
+ Exemplo}
+
+var x : integer;
+
+var y : integer;
+
+var soma:integer;
+
+begin
+	{ Lê as variáveis para efetuar a soma }
+	read(x, y)
+
+	soma:= x + y;
+	
+	{Escreve o resultado da soma}
+	write(soma);
+
+end.

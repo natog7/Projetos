@@ -1,0 +1,20 @@
+program semcriatividade;
+
+var batata: real;
+var salame, salaminho : integer;
+{insira seu texto aqui: AQUI}
+procedure sanduba(pipoca : real);
+
+begin
+read(batata, salame);
+if pipoca > batata- salame then
+
+begin
+salaminho := batata- salame;
+pipoca := salaminho + 1;
+write(salaminho, pipoca);
+end;
+
+begin
+read(salaminho, pipoca);
+end;

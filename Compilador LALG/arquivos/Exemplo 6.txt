@@ -1,0 +1,7 @@
+program simplezinho;
+
+var  : integer;
+
+begin
+	x := 10;
+end.
